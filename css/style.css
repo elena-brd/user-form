@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #181818;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: #f6e8a4;
+    padding: 0.5rem;
+    width: 400px;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.allert-message {
+    background: #e20000;
+    color: #fff;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+.container {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+/* card */
+.card-form {
+    background: #f6e8a4;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+}
+
+.main-title h2 {
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+/* form */
+form label {
+    display: flex;
+    font-size: 1.05rem;
+    padding: 0.8rem 0 0.1rem 0;
+
+}
+
+form input {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #FFAF42;
+}
+
+.btn {
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.4rem 0.3rem;
+    border: none;
+    border-radius: 5px;
+    background: #fe5d00;
+    font-size: 0.9rem;
+    color: #fff;
+    /* transition: all 0.4s ease; */
+}
+
+.btn:hover {
+    background: #FFAF42;
+    color: #181818;
+}
